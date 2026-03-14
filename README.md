@@ -1,6 +1,6 @@
 # customer-churn-prediction-lloyds
 ## Project Overview
---
+---
 
 Customer churn is a major challenge for financial institutions. Losing customers directly impacts revenue and long-term growth.
 
@@ -8,7 +8,7 @@ In this project, I developed a machine learning pipeline to analyze customer beh
 
 The goal was to identify patterns that indicate when a customer may leave the bank and provide insights that can support proactive retention strategies.
 
---
+---
 ## Dataset
 
 The dataset consisted of multiple tables representing different aspects of customer behavior:
@@ -25,7 +25,7 @@ Churn status
 
 These datasets were merged into a unified customer-level dataset to support predictive modelling.
 
---
+---
 ## Exploratory Data Analysis
 
 EDA was conducted to identify patterns between customer behaviour and churn. Key areas explored included:
@@ -40,7 +40,7 @@ Online engagement levels
 
 Initial findings suggested that lower engagement and transaction activity may signal increased churn risk.
 
---
+---
 ## Machine Learning Model
 
 A Random Forest classifier was used to predict customer churn.
@@ -63,7 +63,7 @@ F1 Score
 
 Confusion Matrix
 
---
+---
 ## Key Insights
 
 Feature importance analysis showed that the most influential variables included:
@@ -76,7 +76,7 @@ Customer service interactions
 
 Customers with declining engagement were significantly more likely to churn.
 
---
+---
 ## Technologies Used
 
 Python
